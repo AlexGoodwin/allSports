@@ -1,0 +1,189 @@
+/* line 8, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+a {
+  font-family: "Interstate", sans-serif;
+  color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1em;
+  transition: color 0.5s ease; }
+
+/* line 17, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+a:hover {
+  color: #036; }
+
+/* line 21, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+a:active {
+  color: #036; }
+
+/* line 25, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+h1, h2, h3, h4 {
+  font-family: "Interstate",Helvetica,Arial,sans-serif;
+  margin: 0;
+  display: block;
+  line-height: normal;
+  word-wrap: break-word;
+  padding: 1em 0em;
+  text-align: center;
+  background-color: transparent;
+  margin: 0 auto;
+  color: #333; }
+
+/* line 38, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+h1 {
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: .025em;
+  text-transform: uppercase; }
+
+/* line 45, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 0; }
+
+/* line 52, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 0; }
+
+/* line 59, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+h4 {
+  font-weight: bold;
+  text-transform: lowercase;
+  font-size: 2em;
+  letter-spacing: .05em;
+  text-transform: none; }
+
+/* line 69, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+strong {
+  font-weight: bold; }
+
+/* line 73, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+p {
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1em; }
+
+/* line 83, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px; }
+
+/* line 95, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+* {
+  box-sizing: inherit; }
+
+/* line 98, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+p {
+  padding: 0 !important; }
+
+/* line 101, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+a {
+  font-family: "Interstate", sans-serif;
+  color: #666;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/* line 108, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+strong {
+  font-weight: bold; }
+
+/* line 112, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.surf {
+  background-image: url(../img/surfHero.png); }
+
+/* line 115, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.sun {
+  background-image: url(../img/fish.jpg); }
+
+/* line 118, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.snow {
+  background-image: url(../img/snow.jpeg); }
+
+/* line 121, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.golf {
+  background-image: url(../img/golf.jpg); }
+
+/* line 124, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.bike {
+  background-image: url(../img/biking.jpg); }
+
+/* line 127, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.explore {
+  background-image: url(../img/explore.jpg); }
+
+/* line 130, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+.allSportsContainer {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap; }
+  /* line 135, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+  .allSportsContainer .sport {
+    position: relative;
+    width: 33.33%;
+    height: 0px;
+    padding-bottom: 33.33%;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box; }
+    /* line 143, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+    .allSportsContainer .sport .content:hover {
+      background-color: rgba(0, 0, 255, 0.5);
+      z-index: 2; }
+    /* line 147, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+    .allSportsContainer .sport .content {
+      z-index: 1;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      /* line 157, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+      .allSportsContainer .sport .content h2 {
+        font-size: 2.8em;
+        color: white;
+        padding: 0;
+        align-self: center;
+        text-shadow: 0px 0px 10px #444; }
+
+@media screen and (max-width: 991px) and (min-width: 500px) {
+  /* line 172, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+  body .allSportsContainer .sport {
+    width: 50%;
+    padding-bottom: 50%; }
+    /* line 178, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+    body .allSportsContainer .sport .content h2 {
+      font-size: 2rem; } }
+
+@media screen and (max-width: 499px) {
+  /* line 189, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+  body h1 {
+    font-size: 3em; }
+  /* line 193, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+  body .allSportsContainer .sport {
+    width: 100%;
+    padding-bottom: 100%; }
+    /* line 199, /Users/retail/Desktop/code/allSportsLandingPage/css/style.scss */
+    body .allSportsContainer .sport .content h2 {
+      font-size: 2.5rem; } }
+
+/*# sourceMappingURL=style.css.map */
